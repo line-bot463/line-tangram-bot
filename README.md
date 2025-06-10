@@ -7,4 +7,9 @@
 ### 本地端執行
 
 1. 安裝套件：
-
+ pip install -r requirements.txt
+2. 建立 `.env` 檔，內容如下：
+   LINE_CHANNEL_ACCESS_TOKEN=
+   LINE_CHANNEL_SECRET=
+3. 執行：
+   python main.py
